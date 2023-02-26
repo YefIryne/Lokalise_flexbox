@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Graphik LC TT Regular;
+    src: url(./fonts/GraphikLCG-Regular.ttf);
+}
+@font-face {
+    font-family: Graphik LC TT Semibold;
+    src: url(./fonts/GraphikLCG-Semibold.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+
+}
+.sectionCompanies {
+    background-color: #FF9C7D;
+    height: 455px;
+    width: 100%;
+}
+.section_What_can_you_localize {
+    background-color: #FFF8E4;
+    height: 1033px;
+    width: 100%;
+}
+.sectionBlockquote {
+    background-color: #C9E8F2;
+    height: 468px;
+    width: 100%;
+}
+.sectionStars {
+    background-color: #DABC98;
+    width: 100%;
+    height: 332px;
+}
+.sectionIntegrate {
+    text-align: center;
+}
+.sectionWhy_wait {
+    text-align: center;
+    background-color: #FF9C7D;
+    width: 100%;
+    height: 603px;
+}
+.footer {
+    background-color: #EEEEEE;
+    height: 900px;
+    width: 100%;
+}
