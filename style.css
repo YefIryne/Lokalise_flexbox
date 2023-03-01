@@ -10,24 +10,181 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Graphik LC TT Regular;
 }
 a {
     text-decoration: none;
 }
 
 .header {
-
+    display: flex;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 25px 51px;
+}
+.LokaliseLogo {
+    margin-right: 51px;
+}
+.headerNav {
+    color: #000;
+    margin-right: 57px;
+}
+.headerButtons {
+    margin-left: auto;
+}
+.firstSection {
+    display: flex;
+    margin-top: 129px;
+    margin-bottom: 172px;
+    /* margin-right: 67px;
+    margin-left: 75px; */
+    height: 628px;
+    align-items: center;
+}
+/* .firstSectionImg {
+     flex-direction: column;
+    align-self: center;
+} */
+.firstSectionContainer {
+    flex-direction: column;
+}
+.firstSectionTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    width: 552px; 
+    height: 210px;
+}
+.firstSectionContent{   
+    height: 140px;
+    width: 471px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+.firstSectionAddContent { 
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
 }
 .sectionCompanies {
     background-color: #FF9C7D;
     height: 455px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sectionCompaniesTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    align-self: center;
+    height: 120px;
+    width: 720px;
+    margin-top: 108px;
+    margin-bottom: 82px;
+}
+.Companies {
+   display: flex;
+   justify-content: space-evenly;
+}
+.mainTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+.mainContent { 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.mainLink {
+   font-family: Graphik LC TT Semibold; 
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   letter-spacing: 0em;
+   color: #000;
 }
 .section_What_can_you_localize {
     background-color: #FFF8E4;
     height: 1033px;
     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+.section_What_can_you_localizeTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    margin-top: 120px;
+    margin-bottom: 58px;
+}
+.section_What_can_you_localizeCards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.section_What_can_you_localizeCard {
+    height: 294px;
+    width: 330px;
+    text-align: center;
+}
+.section_What_can_you_localizeContentTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+.section_What_can_you_localizeContent {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+.sectionBoostProductivityTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em; 
+}
+.sectionBoostProductivityCardTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+.sectionBoostProductivityCardContent {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.sectionBoostProductivityCardLink {
+    text-decoration: underline;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
 .sectionBlockquote {
     background-color: #C9E8F2;
     height: 468px;
