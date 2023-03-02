@@ -162,6 +162,17 @@ a {
     font-weight: 600;
     line-height: 60px;
     letter-spacing: 0em; 
+    text-align: center;
+}
+.sectionBoostProductivityCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sectionBoostProductivityCard {
+    height: 700px;
+    width: 439px;
+    display: inline-block;
 }
 .sectionBoostProductivityCardTitle {
     font-family: Graphik LC TT Semibold;
@@ -175,6 +186,8 @@ a {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
+    height: 180px;
+    width: 409px;
 }
 .sectionBoostProductivityCardLink {
     text-decoration: underline;
@@ -183,29 +196,234 @@ a {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
+    margin-top: 25px;
+    display: inline-block;
 }
 
 .sectionBlockquote {
     background-color: #C9E8F2;
     height: 468px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.blockquoteContent {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    width: 895px;
+    align-self: center;
+    margin-left: 75px;
+}
+.blockquote {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    height: 160px;
+    width: 920px;
+    margin-bottom: 23px;
+}
+.figcaption {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    height: 25px;
+    width: 271px;
+    margin-bottom: 7px;
+}
+.blockquoteRevolut {
+    height: 25px;
+    width: 115px;
+}
+.EdwardCooperImg {
+    height: 310px;
+    width: 310px;
+    align-self: center; 
+    margin-left: 85px;
 }
 .sectionStars {
     background-color: #DABC98;
     width: 100%;
     height: 332px;
+    display: flex;
+    align-items: center;
+}
+.StarsTitle {
+    height: 178px;
+    width: 809px;
+    border-right: 2px solid #000;
+    display: flex;
+}
+.sectionStarsImg {
+    height: 154px;
+    width: 176px;
+}
+.sectionStarsTitle {
+    height: 100px;
+    width: 461px;
+    font-family: Graphik LC TT Semibold;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+.Stars {
+    height: 168px;
+    width: 481px;
+    display: flex;
+    align-items: center;
+}
+.firstStars {
+    height: 116px;
+    width: 128px;
+}
+.secondStars {
+    height: 116px;
+    width: 150px;
+}
+.starsFirstLogoImg {
+    height: 36px;
+    width: 128px;
+}
+.starsImg {
+    height: 20px;
+    width: 128px;
+}
+.sectionStarsContent {
+    height: 25px;
+    width: 128px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.75px;
 }
 .sectionIntegrate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionIntegrateTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    height: 150px;
+    width: 791px;
+    display: inline-block;
     text-align: center;
+    margin-top: 165px;
+}
+.sectionIntegrateContent {
+    height: 60px;
+    width: 539px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sectionIntegrateImg {
+    height: 445px;
+    width: 1023px;
+    display: inline-block;
+    margin-bottom: 32px;
+}
+.IntegrateButton {
+    margin-bottom: 162px;
 }
 .sectionWhy_wait {
     text-align: center;
     background-color: #FF9C7D;
     width: 100%;
     height: 603px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionWhy_waitTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    height: 150px;
+    width: 784px;
+    margin-bottom: 29px;
+    margin-top: 119px;
+    display: inline-block;
+}
+.sectionWhy_waitContent {
+    height: 30px;
+    width: 438px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-bottom: 54px;
+    display: inline-block;
 }
 .footer {
     background-color: #EEEEEE;
     height: 900px;
     width: 100%;
+}
+.footerContentBlock {
+    display: flex;
+    flex-direction: column;
+}
+.footerTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+.footerImg {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #000;
+}
+.footerSpecializedImg {
+    height: 32px;
+    width: 80px;
+}
+.footerContent {
+    height: 90px;
+    width: 290px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.footerRead_moreLink {
+    font-family: Graphik LC TT Semibold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #000;
+}
+.footerLinksTitle {
+    font-family: Graphik LC TT Semibold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+.footerLink {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #000;
+}
+.footerBlock {
+    height: 77px;
+    width: 1290px;
+    border-top: 1px solid #000;
 }
