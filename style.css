@@ -33,18 +33,19 @@ a {
 }
 .firstSection {
     display: flex;
+    flex-direction: row;
     margin-top: 129px;
     margin-bottom: 172px;
-    /* margin-right: 67px;
-    margin-left: 75px; */
     height: 628px;
-    align-items: center;
+    width: 100%;
+    justify-content: center;
 }
-/* .firstSectionImg {
-     flex-direction: column;
-    align-self: center;
-} */
+.firstSectionImg {
+    height: 529px;
+    width: 759px;
+}
 .firstSectionContainer {
+    display: flex;
     flex-direction: column;
 }
 .firstSectionTitle {
@@ -55,6 +56,7 @@ a {
     letter-spacing: 0em;
     width: 552px; 
     height: 210px;
+    margin-bottom: 51px;
 }
 .firstSectionContent{   
     height: 140px;
@@ -63,12 +65,14 @@ a {
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
+    margin-bottom: 50px;
 }
 .firstSectionAddContent { 
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
+    margin-top: 25px;
 }
 .sectionCompanies {
     background-color: #FF9C7D;
@@ -93,18 +97,66 @@ a {
    display: flex;
    justify-content: space-evenly;
 }
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainBlock {
+    height: 632px;
+    width: 1290px;
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 250px;
+}
+.lastMainBlock {
+    height: 577px;
+    width: 1290px;
+    display: flex;
+    margin-bottom: 150px;
+}
+.mainBlockContent {
+    display: flex;
+    flex-direction: column;
+    height: 341px;
+    width: 658px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.secondMainBlockContent {
+    display: flex;
+    flex-direction: column;
+    height: 341px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 138px;
+}
+.lastMainBlockContent {
+    display: flex;
+    flex-direction: column;
+    height: 341px;
+    width: 520px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 138px;
+}
 .mainTitle {
     font-family: Graphik LC TT Semibold;
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
     letter-spacing: 0em;
+    margin-bottom: 30px;
 }
 .mainContent { 
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
+    height: 120px;
+    width: 491px;
+    margin-bottom: 30px;
 }
 .mainLink {
    font-family: Graphik LC TT Semibold; 
@@ -143,18 +195,27 @@ a {
     width: 330px;
     text-align: center;
 }
+.section_What_can_you_localizeImg {
+    height: 120px;
+    width: 160px;
+    margin-bottom: 23px;
+}
 .section_What_can_you_localizeContentTitle {
     font-family: Graphik LC TT Semibold;
     font-size: 25px;
     font-weight: 600;
     line-height: 35px;
     letter-spacing: 0em;
+    margin-bottom: 23px;
 }
 .section_What_can_you_localizeContent {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
+}
+.sectionBoostProductivity {
+    height: 1065px;
 }
 .sectionBoostProductivityTitle {
     font-family: Graphik LC TT Semibold;
@@ -163,16 +224,37 @@ a {
     line-height: 60px;
     letter-spacing: 0em; 
     text-align: center;
+    margin-top: 154px;
+    margin-bottom: 25px;
 }
 .sectionBoostProductivityCards {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 639px;
 }
 .sectionBoostProductivityCard {
     height: 700px;
     width: 439px;
     display: inline-block;
+}
+.ManagersImg {
+    height: 201px;
+    width: 145px;
+    margin-bottom: 49px;
+    margin-top: 50px;
+}
+.DevelopersImg {
+    margin-bottom: 67px;
+    margin-top: 67px;
+    height: 166px;
+    width: 179px;
+}
+.TranslatorsImg {
+    margin-bottom: 58px;
+    margin-top: 59px;
+    height: 183px;
+    width: 179px;
 }
 .sectionBoostProductivityCardTitle {
     font-family: Graphik LC TT Semibold;
@@ -180,6 +262,7 @@ a {
     font-weight: 600;
     line-height: 40px;
     letter-spacing: 0em;
+    margin-bottom: 34px;
 }
 .sectionBoostProductivityCardContent {
     font-size: 20px;
@@ -371,10 +454,23 @@ a {
     background-color: #EEEEEE;
     height: 900px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footerContentBlock {
     display: flex;
+    height: 682px;
+    width: 1290px;
+    margin-top: 92px;
+    border-bottom: 1px solid #000;
+}
+.footerCaseStudiesBlock {
+    display: flex;
     flex-direction: column;
+    height: 587px;
+    width: 370px;
+    margin-right: 70px;
 }
 .footerTitle {
     font-family: Graphik LC TT Semibold;
@@ -382,6 +478,7 @@ a {
     font-weight: 600;
     line-height: 50px;
     letter-spacing: 0em;
+    margin-bottom: 28px;
 }
 .footerImg {
     height: 300px;
@@ -391,6 +488,8 @@ a {
 .footerSpecializedImg {
     height: 32px;
     width: 80px;
+    margin-top: 31px;
+    margin-bottom: 11px;
 }
 .footerContent {
     height: 90px;
@@ -399,6 +498,7 @@ a {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
+    margin-bottom: 15px;
 }
 .footerRead_moreLink {
     font-family: Graphik LC TT Semibold;
@@ -408,12 +508,23 @@ a {
     letter-spacing: 0em;
     color: #000;
 }
+.footerLinks {
+    display: flex;
+    height: 286px;
+    width: 850px;
+    justify-content: space-between;
+}
+.footerLinksBlock {
+    display: flex;
+    flex-direction: column;
+}
 .footerLinksTitle {
     font-family: Graphik LC TT Semibold;
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
     letter-spacing: 0em;
+    margin-bottom: 21px;
 }
 .footerLink {
     font-size: 15px;
@@ -421,9 +532,36 @@ a {
     line-height: 15px;
     letter-spacing: 0em;
     color: #000;
+    margin-bottom: 15px;
 }
 .footerBlock {
     height: 77px;
     width: 1290px;
-    border-top: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+}
+.LokalisefooterImg {
+    height: 21px;
+    width: 90px;
+    margin-right: 14px;
+}
+.footerBlockContent {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    height: 30px;
+    width: 301px;
+}
+.© {
+    height: 30px;
+    width: 109px;
+    margin-left: auto;
+}
+.©Content {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
 }
