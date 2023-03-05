@@ -15,7 +15,10 @@
 a {
     text-decoration: none;
 }
-
+button {
+    appearance: none;
+    cursor: pointer;
+}
 .header {
     display: flex;
     border-bottom: 1px solid #CCCCCC;
@@ -30,6 +33,29 @@ a {
 }
 .headerButtons {
     margin-left: auto;
+}
+.loginButton {
+    font-family: Graphik LC TT Semibold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    background-color: #ffffff;
+    height: 45px;
+    width: 120px;
+    border: 1px solid #00000080;
+    margin-right: 10px;
+}
+.tryButtonHeader {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    height: 45px;
+    width: 120px;
+    background-color: #FF6336;
+    border: none;
 }
 .firstSection {
     display: flex;
@@ -66,6 +92,32 @@ a {
     line-height: 35px;
     letter-spacing: 0em;
     margin-bottom: 50px;
+}
+.firstSectionButtons {
+    display: flex;
+}
+.tryButton {
+    height: 60px;
+    width: 160px;
+    margin-right: 10px;
+    background-color: #FF6336;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+.bookButton {
+    height: 60px;
+    width: 160px;
+    background-color: #ffffff;
+    border: 1px solid #00000080;
+    font-family: Graphik LC TT Semibold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
 }
 .firstSectionAddContent { 
     font-size: 15px;
@@ -439,7 +491,16 @@ a {
     margin-bottom: 32px;
 }
 .IntegrateButton {
+    height: 60px;
+    width: 193px;
+    background-color: #FF6336;
+    border: none;
     margin-bottom: 162px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #ffffff;
 }
 .sectionWhy_wait {
     text-align: center;
@@ -471,6 +532,17 @@ a {
     letter-spacing: 0em;
     margin-bottom: 54px;
     display: inline-block;
+}
+.sectionWhy_waitButton {
+    height: 60px;
+    width: 160px;
+    background: #000000;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #ffffff;
 }
 .footer {
     background-color: #EEEEEE;
